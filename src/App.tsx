@@ -1,6 +1,8 @@
 import { useCallback, useState } from "react";
 import { useDropzone } from "react-dropzone";
 
+// This is a comment
+
 function App() {
   interface Files extends File {
     path?: string;
